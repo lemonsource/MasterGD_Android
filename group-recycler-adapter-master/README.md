@@ -6,10 +6,7 @@ GroupRecyclerAdapter是用于实现分组数据在RecyclerView中的展示，包
 [ ![Download](https://api.bintray.com/packages/msdx/maven/GroupRecyclerAdapter/images/download.svg) ](https://bintray.com/msdx/maven/GroupRecyclerAdapter/_latestVersion)
 <a href="http://www.methodscount.com/?lib=com.githang%3Agroup-recycler-adapter%3A0.1"><img src="https://img.shields.io/badge/Methods and size-95 | 25 KB-e91e63.svg"/></a>
 
-# 运行效果
-![运行截图](./images/1.png)
-
-# 使用方法
+# 毕业设计项目原型，安卓客户端部分。
 
 ## 添加依赖
 
