@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorLight"
+    android:filterTouchesWhenObscured="true">
+
+    <include layout="@layout/activity_title"></include>
+
+    <RelativeLayout
+        android:id="@+id/list_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:gravity="center">
+
+        <ListView
+            android:id="@+id/list_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:divider="@color/colorLight"
+            android:background="#FFFFFF"
+            android:dividerHeight="10dp"></ListView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/list_layout"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/logout"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/usecode_layout"
+            android:layout_marginTop="60dp"
+            android:background="@color/colorPrimary"
+            android:gravity="center|center"
+            android:text="退出"
+            android:textSize="14dp"
+            android:textColor="@android:color/white" />
+    </RelativeLayout>
+
+</RelativeLayout>

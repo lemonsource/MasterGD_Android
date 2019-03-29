@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2017. Xi'an iRain IOT Technology service CO., Ltd (ShenZhen). All Rights Reserved.
+  -->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="340dp"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="40dp"
+    android:layout_marginTop="5dp"
+    android:background="@drawable/shape_ovalmember"
+    android:padding="16dp"
+    android:clickable="true"
+
+    >
+
+
+    <!--<TextView-->
+    <!--android:id="@+id/name_label"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginRight="16dp"-->
+    <!--android:gravity="center_vertical"-->
+    <!--android:text="@string/name"-->
+    <!--android:textColor="#666"-->
+    <!--android:textSize="15sp"/>-->
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="262dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:textColor="#2E8B57"
+        android:textSize="17sp"
+        android:textStyle="bold"
+
+        />
+
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/memo_label"
+        android:background="#2E8B57"
+        android:layout_marginTop="-26dp"
+        android:layout_marginRight="16dp"
+        android:gravity="center_vertical"
+
+        android:textColor="#FFFAF0"
+        android:textSize="12sp" />
+
+
+    <TextView
+        android:id="@+id/name2"
+        android:layout_width="262dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:textColor="#000000"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        tools:text="全日制本科毕业证书" />
+
+    <TextView
+        android:id="@+id/status2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/memo_label"
+        android:background="@drawable/shape_ovaldownload"
+        android:layout_marginTop="-26dp"
+        android:layout_marginRight="16dp"
+        android:gravity="center_vertical"
+        android:text="已下载"
+        android:textColor="#FFFAF0"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/memo_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="16dp"
+        android:gravity="center_vertical"
+        android:text="@string/memo"
+
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/memo2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="30dp"
+        android:layout_toRightOf="@id/memo_label"
+        android:gravity="center_vertical"
+        android:textSize="12sp"
+        tools:text="2018-11-21" />
+
+    <TextView
+        android:id="@+id/certprove2"
+        android:layout_width="70dp"
+        android:layout_height="27dp"
+        android:layout_alignTop="@+id/memo_label"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="-54dp"
+        android:layout_marginRight="0dp"
+        android:background="@drawable/shape_ovalcertprove"
+        android:gravity="center_vertical"
+        android:text="学历证明"
+        android:textAlignment="center"
+        android:textColor="#FFFAF0"
+        android:textSize="12sp" />
+</RelativeLayout>

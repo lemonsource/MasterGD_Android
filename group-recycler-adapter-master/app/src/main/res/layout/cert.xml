@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorLight"
+    android:filterTouchesWhenObscured="true">
+
+    <include layout="@layout/activity_title"></include>
+
+
+    <ImageView
+        android:id="@+id/certImage"
+        android:layout_width="match_parent"
+        android:layout_height="186dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/njuba" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="81dp"
+        android:layout_marginTop="154dp"
+        android:layout_marginBottom="288dp"
+        android:text="学生姓名："
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/name2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="180dp"
+        android:layout_marginBottom="288dp"
+        android:text="学生姓名"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/major"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="115dp"
+            android:layout_marginBottom="260dp"
+            android:gravity="center_vertical"
+            android:text="专业："
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/major2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="180dp"
+            android:layout_marginBottom="260dp"
+            android:gravity="center_vertical"
+            android:text="专业"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/studentId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="115dp"
+            android:layout_marginBottom="230dp"
+            android:gravity="center_vertical"
+            android:text="学号："
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/studentId2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="180dp"
+            android:layout_marginBottom="230dp"
+            android:gravity="center_vertical"
+            android:text="学号"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/graduateDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="85dp"
+            android:layout_marginBottom="200dp"
+            android:gravity="center_vertical"
+            android:text="毕业年份："
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/graduateDate2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="180dp"
+            android:layout_marginBottom="200dp"
+            android:gravity="center_vertical"
+            android:text="毕业年份"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/discipline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="85dp"
+            android:layout_marginBottom="170dp"
+            android:gravity="center_vertical"
+            android:text="学科类别："
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/discipline2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="180dp"
+            android:layout_marginBottom="170dp"
+            android:gravity="center_vertical"
+            android:text="学科类别："
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/degreeLevel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="85dp"
+            android:layout_marginBottom="140dp"
+            android:gravity="center_vertical"
+            android:text="学科级别："
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/degreeLevel2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="180dp"
+            android:layout_marginBottom="140dp"
+            android:gravity="center_vertical"
+            android:text="学科级别："
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/issuer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="85dp"
+            android:layout_marginBottom="110dp"
+            android:gravity="center_vertical"
+            android:text="颁发机构："
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/issuer2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="180dp"
+            android:layout_marginBottom="110dp"
+            android:gravity="center_vertical"
+            android:text="颁发机构："
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/issuingDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="83dp"
+        android:layout_marginBottom="82dp"
+        android:gravity="center_vertical"
+        android:text="颁发时间："
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/issuingDate2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="180dp"
+        android:layout_marginBottom="80dp"
+        android:gravity="center_vertical"
+        android:text="颁发时间："
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
